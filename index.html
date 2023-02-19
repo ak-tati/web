@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Laboratorio</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div id="container">
+
+    <div id="formulario"> 
+         
+        <form action="./procesaFormulario.php"> 
+            <h1>Create Account</h1>
+            <h3>Nombre:</h3>
+            <p> 
+                <input type="text" name="nombre" required/></p> 
+            <h3>Email:</h3>
+            <p> 
+                <input type="email" name="email" required /></p>
+            <h3>Clave:</h3>
+            <p> 
+                <input type="password" name="clave" 
+                pattern="{1,8}" required /></p> 
+            <h3>Confirma su clave:</h3>
+            <p> 
+                <input type="password" name="confirma_clave" 
+                pattern="{1,8}" required/></p> 
+            
+            <button type="submit" color="white">ENVIAR</button> 
+            </form> 
+    </div>
+    </div>
+</body>
+</html>

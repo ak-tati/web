@@ -1,0 +1,35 @@
+h1{ color: rgba(174,188,227,255);; font-size: 18;}
+h3{ color: rgba(174,188,227,255); font-size: 12;}
+button{
+    background-color: rgba(108,99,255,255);
+    color: white;
+    border-width: 2px;
+    border-color: black;
+    text-align: center;
+    margin: 5px;
+
+}
+
+html, body {  
+    margin:0px;  
+    height:100%;
+    background-color: rgba(36,41,51,255);
+}
+
+#container {
+    background-color: rgba(36,41,51,255);
+    position:relative;
+
+}
+
+#formulario {
+    background-color: rgba(47,54,68,255);
+    border-color: rgba(174,188,227,255);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 250px;
+    padding: 30px;
+}
